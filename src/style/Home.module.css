@@ -3,11 +3,19 @@
 	height: 100vh;
 	margin: 0;
 	padding: 0;
+	font-weight: bolder;
 }
 .heroContent {
 	position: absolute;
 	top: 40%;
 	left: 5%;
+}
+.header {
+	color: rgb(1, 17, 58);
+	font-weight: bolder;
+}
+.text {
+	color: #f16405;
 }
 .btn {
 	color: #f16405;
@@ -31,8 +39,6 @@
 	text-align: center;
 	width: 50%;
 	height: 100vh;
-	/* #01113a */
-	/* background: #f16405; */
 }
 .img {
 	width: 50%;

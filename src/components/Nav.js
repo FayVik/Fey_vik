@@ -8,11 +8,11 @@ const styles = {
 		color: '#000',
 		fontWeight: 'bolder',
 		borderBottom: '2px solid #f16405',
-		paddingBottom: '10px',
+		paddingBottom: '6px',
 	},
 	linkItem: {
 		textDecoration: 'none',
-		fontWeight: '600',
+		fontWeight: '900',
 		fontSize: '14px',
 		color: '#000',
 	},
@@ -41,7 +41,7 @@ function Nav() {
 				}
 			>
 				<button
-					className='navbar-toggler'
+					className='navbar-toggler mx-2 pt-2'
 					type='button'
 					data-toggle='collapse'
 					data-target='#navbarSupportedContent'
@@ -52,11 +52,14 @@ function Nav() {
 					<span className='navbar-toggler-icon'></span>
 				</button>
 
-				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
-					<ul className='navbar-nav mx-auto'>
+				<div
+					className='collapse navbar-collapse px-5'
+					id='navbarSupportedContent'
+				>
+					<ul className='navbar-nav ml-auto '>
 						{links.map((link) => (
 							<NavLink
-								className='links mx-5'
+								className='links mx-4'
 								key={link.path}
 								exact
 								style={styles.linkItem}

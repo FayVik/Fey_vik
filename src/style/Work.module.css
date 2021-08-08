@@ -1,0 +1,26 @@
+.header {
+	font-weight: bolder;
+	color: #f16405;
+}
+.carousel {
+	min-height: 50vh;
+	padding: 8px 0;
+}
+.slider {
+	width: 90vw !important;
+	margin: auto;
+}
+.header2 {
+	font-size: 18px;
+	font-weight: bolder;
+}
+.text {
+	font-size: 14px;
+}
+.bgPad {
+	margin: 0 60px !important;
+	text-align: center;
+	min-height: 50vh;
+	font-weight: bold !important;
+	background: linear-gradient(rgba(240, 99, 5, 0.493), rgba(1, 17, 58, 0.568));
+}
