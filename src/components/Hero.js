@@ -1,5 +1,6 @@
 import React from 'react';
 import Style from '../style/Home.module.css';
+import img from '../image/undraw_working_remotely_jh40.svg';
 
 export default function Hero() {
 	return (
@@ -19,7 +20,9 @@ export default function Hero() {
 				</button>
 			</div>
 			<div className='col-6'></div>
-			<div className={`${Style.imgBg} col-5`}></div>
+			<div className={`${Style.imgBg} col-5`}>
+				<img src={img} alt='Vick' className={Style.img} />
+			</div>
 		</div>
 	);
 }

@@ -3,7 +3,7 @@
 	color: #f16405;
 }
 .carousel {
-	min-height: 100vh;
+	min-height: 40vh;
 	padding: 10px 0;
 	display: flex;
 	flex-direction: column;
@@ -23,7 +23,6 @@
 .bgPad {
 	margin: 0 60px !important;
 	text-align: center;
-	min-height: 50vh;
 	font-weight: bold !important;
-	background: linear-gradient(rgba(240, 99, 5, 0.493), rgba(1, 17, 58, 0.568));
+	background: linear-gradient(rgb(240, 99, 5), rgba(1, 17, 58, 0.568));
 }

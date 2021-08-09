@@ -1,10 +1,26 @@
 .header {
 	font-weight: bolder;
 	color: #f16405;
+	text-align: center;
 }
 .skills {
 	min-height: 60vh;
 	padding: 8px 0;
-	background: #ccc;
+	color: #fff;
+	background: linear-gradient(rgb(1, 17, 58), rgb(1, 17, 58));
+}
+#myProgress {
+	width: 80%;
+	background-color: #ddd;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+#myBar {
+	width: 90%;
+	height: 10px;
+	background: #09c;
 	text-align: center;
+	line-height: 30px;
+	color: white;
+	border-radius: 10px;
 }

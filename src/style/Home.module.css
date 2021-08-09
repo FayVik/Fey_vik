@@ -4,15 +4,19 @@
 	margin: 0;
 	padding: 0;
 	font-weight: bolder;
+	color: #fff;
+	background: linear-gradient(rgba(1, 17, 58, 0.568), rgba(1, 17, 58, 0.568)),
+		url('../image/mac.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
 }
 .heroContent {
 	position: absolute;
 	top: 40%;
 	left: 5%;
-}
-.header {
-	color: rgb(1, 17, 58);
-	font-weight: bolder;
 }
 .text {
 	color: #f16405;
@@ -29,19 +33,12 @@
 	color: #fff;
 }
 .imgBg {
-	background: linear-gradient(rgba(240, 99, 5, 0.493), rgba(1, 17, 58, 0.568)),
-		url('../image/mac.jpeg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-top-left-radius: 800px;
-	border-bottom-left-radius: 800px;
 	text-align: center;
 	width: 50%;
 	height: 100vh;
 }
 .img {
-	width: 50%;
+	width: 100%;
 	height: 100vh;
 	object-fit: fill;
 }

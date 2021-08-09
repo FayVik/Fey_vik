@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const styles = {
 	activeLinkItem: {
-		color: '#000',
+		color: '#fff',
 		fontWeight: 'bolder',
 		borderBottom: '2px solid #f16405',
 		paddingBottom: '6px',
@@ -14,7 +14,7 @@ const styles = {
 		textDecoration: 'none',
 		fontWeight: '900',
 		fontSize: '14px',
-		color: '#000',
+		color: '#fff',
 	},
 };
 
@@ -56,7 +56,7 @@ function Nav() {
 					className='collapse navbar-collapse px-5'
 					id='navbarSupportedContent'
 				>
-					<ul className='navbar-nav ml-auto '>
+					<ul className='navbar-nav mx-auto '>
 						{links.map((link) => (
 							<NavLink
 								className='links mx-4'

@@ -3,7 +3,8 @@
 	height: 10vh;
 }
 .navbar.colorChange {
-	background-color: #ffffff !important;
+	background: linear-gradient(rgb(240, 99, 5), rgb(1, 17, 58));
+	border: none !important;
 }
 .slick-next:before,
 .slick-prev:before {
