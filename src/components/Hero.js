@@ -20,8 +20,12 @@ export default function Hero() {
 				</button>
 			</div>
 			<div className='col-6'></div>
-			<div className={`${Style.imgBg} col-5`}>
-				<img src={img} alt='Vick' className={Style.img} />
+			<div className={`${Style.imgBg} col-5 `}>
+				<img
+					src={img}
+					alt='Vick'
+					className={`${Style.img} animate__animated animate__delay-2s animate__bounceInRight`}
+				/>
 			</div>
 		</div>
 	);
