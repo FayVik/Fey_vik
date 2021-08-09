@@ -1,0 +1,10 @@
+.header {
+	font-weight: bolder;
+	color: #f16405;
+}
+.skills {
+	min-height: 60vh;
+	padding: 8px 0;
+	background: #ccc;
+	text-align: center;
+}

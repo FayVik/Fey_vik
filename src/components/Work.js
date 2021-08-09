@@ -20,7 +20,7 @@ const channels = [
 				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-07-25%20at%2021.44.00.png?alt=media&token=704b842d-592c-463b-b0a4-9bd929f199b1',
 			name: 'Image Link Generator',
 			specialty:
-				'It is a drag and drop image uploader, I used React.js, Firebase storage and material ul',
+				'It is a drag and drop image uploader. It is built React.js, Firebase storage and material ul',
 			link: 'https://image-uploader-one.vercel.app/',
 		},
 	},
@@ -29,8 +29,10 @@ const channels = [
 		participant: {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-07-23%20at%2018.32.41.png?alt=media&token=3a2f5c0c-756c-4242-9f93-3c1bcff26d78',
-			name: 'Your Doctors',
-			specialty: 'Some columns have multiple widths defined.',
+			name: 'A Dashboard',
+			specialty:
+				'A coding challenge That I took. It is built with bootstrap, react',
+			link: 'https://aneeque-coding-challenge-taupe.vercel.app/',
 		},
 	},
 	{
@@ -51,9 +53,32 @@ export default function Work() {
 		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+		],
 	};
 	return (
-		<div className={`${Style.carousel} my-5 text-center`}>
+		<div className={`${Style.carousel} text-center`}>
 			<div className='my-5'>
 				<h2 className={Style.header}>My Lastest Work</h2>
 				<p className='my-2'>

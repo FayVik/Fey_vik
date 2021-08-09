@@ -5,3 +5,7 @@
 .navbar.colorChange {
 	background-color: #ffffff !important;
 }
+.slick-next:before,
+.slick-prev:before {
+	color: black !important;
+}

@@ -37,7 +37,7 @@ function Nav() {
 				className={
 					colorChange
 						? ' navbar navbar-expand-lg navbar-light fixed-top colorChange'
-						: ' navbar navbar-expand-lg navbar-light fixed-top animate__fadeInDown animate__animated animate__delay-1s'
+						: ' navbar navbar-expand-lg navbar-light fixed-top animate__fadeIn animate__animated animate__delay-1s'
 				}
 			>
 				<button
