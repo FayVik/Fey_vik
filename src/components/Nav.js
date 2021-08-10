@@ -56,10 +56,10 @@ function Nav() {
 					className='collapse navbar-collapse px-5'
 					id='navbarSupportedContent'
 				>
-					<ul className='navbar-nav mx-auto'>
+					<ul className='navbar-nav mx-auto '>
 						{links.map((link) => (
 							<NavLink
-								className='links mx-4 my-2'
+								className='links mx-4'
 								key={link.path}
 								exact
 								style={styles.linkItem}
