@@ -41,7 +41,7 @@ function Nav() {
 				}
 			>
 				<button
-					className='navbar-toggler mx-2 pt-2'
+					className='navbar-toggler mx-2 pt-2 bg-white'
 					type='button'
 					data-toggle='collapse'
 					data-target='#navbarSupportedContent'
@@ -56,10 +56,10 @@ function Nav() {
 					className='collapse navbar-collapse px-5'
 					id='navbarSupportedContent'
 				>
-					<ul className='navbar-nav mx-auto '>
+					<ul className='navbar-nav mx-auto'>
 						{links.map((link) => (
 							<NavLink
-								className='links mx-4'
+								className='links mx-4 my-2'
 								key={link.path}
 								exact
 								style={styles.linkItem}

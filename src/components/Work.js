@@ -40,8 +40,10 @@ const channels = [
 		participant: {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-07-25%20at%2021.44.00.png?alt=media&token=704b842d-592c-463b-b0a4-9bd929f199b1',
-			name: 'Your Doctors',
-			specialty: 'Some columns have multiple widths defined.',
+			name: 'Image Link Generator',
+			specialty:
+				'It is a drag and drop image uploader. It is built React.js, Firebase storage and material ul',
+			link: 'https://image-uploader-one.vercel.app/',
 		},
 	},
 ];
@@ -85,7 +87,7 @@ export default function Work() {
 					Here are some of my recent projects that i worked on
 				</p>
 			</div>
-			<Slider {...settings} className={Style.slider}>
+			<Slider {...settings} className={`${Style.slider} text-center`}>
 				{channels.map((channel) => {
 					return (
 						<div>
@@ -94,8 +96,10 @@ export default function Work() {
 								className={`${Style.bgPad} mx-5 hadow-sm p-3 mb-5 rounded`}
 							>
 								<img src={channel.participant.image} width='100%' alt='work' />
-								<div className='my-4'>
-									<h3 className={Style.header2}>{channel.participant.name}</h3>
+								<div className={`${Style.cards}`}>
+									<h3 className={`${Style.header2} my-4`}>
+										{channel.participant.name}
+									</h3>
 									<p className={Style.text}>{channel.participant.specialty}</p>
 									<a
 										href={channel.participant.link}

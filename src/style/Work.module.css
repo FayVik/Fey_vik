@@ -13,6 +13,9 @@
 	width: 90vw !important;
 	margin: auto;
 }
+.cards {
+	margin-bottom: 20px !important;
+}
 .header2 {
 	font-size: 18px;
 	font-weight: bolder;
@@ -21,8 +24,19 @@
 	font-size: 13px;
 }
 .bgPad {
-	margin: 0 60px !important;
+	height: 68vh;
+	margin: 0 20px !important;
 	text-align: center;
 	font-weight: bold !important;
 	background: linear-gradient(rgb(240, 99, 5), rgba(1, 17, 58, 0.568));
+}
+@media screen and (max-width: 1024px) {
+	.bgPad {
+		height: 38vh;
+	}
+}
+@media screen and (max-width: 768px) {
+	.bgPad {
+		height: 60vh;
+	}
 }

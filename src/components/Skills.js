@@ -11,8 +11,8 @@ export default function Skills() {
 				</p>
 			</div>
 			<div className='row justify-center px-5'>
-				<div className='col-2'></div>
-				<div className={`${Style.card} col-4`}>
+				<div className='col-2 d-md-none d-lg-block'></div>
+				<div className={`${Style.card} col-lg-4 col-md-6 col-sm-6`}>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
@@ -44,7 +44,7 @@ export default function Skills() {
 						<h4>Firebase</h4>
 					</div>
 				</div>
-				<div className={`${Style.card} col-4`}>
+				<div className={`${Style.card} col-lg-4 col-md-6 col-sm-6`}>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
@@ -76,7 +76,7 @@ export default function Skills() {
 						<h4>Material Ui</h4>
 					</div>
 				</div>
-				<div className='col-2'></div>
+				<div className='col-2 d-md-none d-lg-block'></div>
 			</div>
 		</div>
 	);
