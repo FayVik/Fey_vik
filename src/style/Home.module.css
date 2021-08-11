@@ -16,11 +16,8 @@
 .heroContent {
 	position: absolute;
 	top: 40%;
-	left: 5%;
+	left: 6%;
 }
-/* .header {
-	font-size: 22px;
-} */
 .text {
 	color: #f16405;
 }
@@ -51,12 +48,17 @@
 	}
 	.heroContent {
 		top: 20%;
-		left: 0;
+		left: 6;
 	}
 	.imgBg {
 		height: 60vh;
 	}
 	.img {
 		height: 60vh;
+	}
+}
+@media screen and (max-width: 500px) {
+	.heroContent {
+		left: 0;
 	}
 }

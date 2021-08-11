@@ -5,7 +5,7 @@ import img from '../image/undraw_working_remotely_jh40.svg';
 export default function Hero() {
 	return (
 		<div className={`${Style.hero} row p-0 m-0`}>
-			<div className={`${Style.heroContent} col-lg-7 col-md-6 col-sm-12 m-0`}>
+			<div className={`${Style.heroContent} col-lg-7 col-md-7 col-sm-12 m-0`}>
 				<div className='animate__animated animate__delay-1s animate__fadeInDown'>
 					<h1>Hello,</h1>
 					<h1 className={`${Style.header}`}>I am Favour Vivian Woka</h1>
@@ -20,7 +20,7 @@ export default function Hero() {
 				</button>
 			</div>
 			<div className='col-lg-6 col-md-6 m-0'></div>
-			<div className={`${Style.imgBg} col-lg-5 col-md-6 d-none d-lg-block`}>
+			<div className={`${Style.imgBg} col-lg-5 col-md-5 d-none d-lg-block`}>
 				<img
 					src={img}
 					alt='Vick'
