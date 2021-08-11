@@ -1,0 +1,11 @@
+.container {
+	min-height: 80vh;
+	text-align: center;
+	padding: 8px 0;
+	color: rgb(0, 0, 0);
+}
+.header {
+	font-weight: bolder;
+	color: #f16405;
+	text-align: center;
+}

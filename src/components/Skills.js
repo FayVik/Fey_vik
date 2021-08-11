@@ -1,5 +1,6 @@
 import React from 'react';
 import Style from '../style/Skills.module.css';
+import { Progress, Progress2, Progress3, Progress4 } from './Progress';
 
 export default function Skills() {
 	return (
@@ -11,72 +12,32 @@ export default function Skills() {
 				</p>
 			</div>
 			<div className='row m-0 justify-center px-2'>
-				<div className='col-1 d-none d-lg-block'></div>
-				<div className={`${Style.card} col-lg-5 col-md-6 col-sm-12`}>
-					<div className='my-5'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>Html</p>
-					</div>
-					<div className='my-5'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>Css</p>
-					</div>
-					<div className='my-5'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>Bootstrap</p>
-					</div>
-					<div className='my-5'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>Tailwind</p>
-					</div>
-					<div className='my-2'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>Firebase</p>
+				<div className={`col-lg-3 col-md-4 col-sm-3`}>
+					<div className={`${Style.progress} ${Style.blue}`}>
+						<Progress>90% Html</Progress>
 					</div>
 				</div>
-				<div className={`${Style.card} col-lg-5 col-md-6 col-sm-12`}>
-					<div className='my-5'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>JavaScript</p>
-					</div>
-					<div className='my-5'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>Angular.js</p>
-					</div>
-					<div className='my-5'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>Vue.js</p>
-					</div>
-					<div className='my-5'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>React.js</p>
-					</div>
-					<div className='my-2'>
-						<div id={Style.myProgress}>
-							<div id={Style.myBar}></div>
-						</div>
-						<p>Material Ui</p>
-					</div>
+				<div className={`col-lg-3 col-md-4 col-sm-3`}>
+					<Progress>90% Css</Progress>
 				</div>
-				<div className='col-1 d-none d-lg-block'></div>
+				<div className={`col-lg-3 col-md-4 col-sm-3`}>
+					<Progress>90% Bootstrap</Progress>
+				</div>
+				<div className={`col-lg-3 col-md-4 col-sm-3`}>
+					<Progress2>70% Tailwind</Progress2>
+				</div>
+				<div className={`col-lg-3 col-md-4 col-sm-3`}>
+					<Progress3>60% JavaScript</Progress3>
+				</div>
+				<div className={`col-lg-3 col-md-4 col-sm-3`}>
+					<Progress3>60% Angular.js</Progress3>
+				</div>
+				<div className={`col-lg-3 col-md-4 col-sm-3`}>
+					<Progress4>50% Vue.js</Progress4>
+				</div>
+				<div className={`col-lg-3 col-md-4 col-sm-3`}>
+					<Progress3>60% React.js</Progress3>
+				</div>
 			</div>
 		</div>
 	);
