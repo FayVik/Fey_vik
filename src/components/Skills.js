@@ -37,7 +37,7 @@ export default function Skills() {
 						</div>
 						<h4>Tailwind</h4>
 					</div>
-					<div className='my-5'>
+					<div className='my-2'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
@@ -69,7 +69,7 @@ export default function Skills() {
 						</div>
 						<h4>React.js</h4>
 					</div>
-					<div className='my-5'>
+					<div className='my-2'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>

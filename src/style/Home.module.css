@@ -18,6 +18,9 @@
 	top: 40%;
 	left: 5%;
 }
+/* .header {
+	font-size: 22px;
+} */
 .text {
 	color: #f16405;
 }
@@ -48,6 +51,7 @@
 	}
 	.heroContent {
 		top: 20%;
+		left: 0;
 	}
 	.imgBg {
 		height: 60vh;

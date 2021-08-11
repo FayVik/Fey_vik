@@ -59,7 +59,7 @@ function Nav() {
 					<ul className='navbar-nav mx-auto '>
 						{links.map((link) => (
 							<NavLink
-								className='links mx-4'
+								className='links mx-4 my-4'
 								key={link.path}
 								exact
 								style={styles.linkItem}
