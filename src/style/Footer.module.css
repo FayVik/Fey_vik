@@ -1,0 +1,15 @@
+.footer {
+	background: linear-gradient(rgba(1, 17, 58, 0.993), rgb(1, 17, 58));
+	min-height: 20vh;
+	width: 100%;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 12px;
+}
+.header {
+	font-weight: bolder;
+	color: #f16405;
+	font-size: 18px;
+}

@@ -105,7 +105,7 @@ export default function Work() {
 										href={channel.participant.link}
 										target='_blank'
 										rel='noreferrer'
-										className='text-white'
+										className={`${Style.link}`}
 									>
 										{channel.participant.link}
 									</a>

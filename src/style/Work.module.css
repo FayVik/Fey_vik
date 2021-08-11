@@ -15,17 +15,19 @@
 }
 .header2 {
 	font-size: 18px;
+	color: #f16405;
 	font-weight: bolder;
 }
 .text {
 	font-size: 13px;
 }
 .bgPad {
+	color: #fff;
 	height: 68vh;
 	margin: 0 20px !important;
 	text-align: center;
 	font-weight: bold !important;
-	background: linear-gradient(rgb(240, 99, 5), rgba(1, 17, 58, 0.568));
+	background: rgb(1, 17, 58);
 }
 @media screen and (max-width: 1024px) {
 	.carousel {
