@@ -10,73 +10,73 @@ export default function Skills() {
 					Here are all my Skills that I have aquired.
 				</p>
 			</div>
-			<div className='row m-0 justify-center px-5'>
-				<div className='col-1 d-md-none d-lg-block'></div>
-				<div className={`${Style.card} col-lg-5 col-md-6 col-sm-6`}>
+			<div className='row m-0 justify-center px-2'>
+				<div className='col-1 d-none d-lg-block'></div>
+				<div className={`${Style.card} col-lg-5 col-md-6 col-sm-12`}>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>Html</h4>
+						<p>Html</p>
 					</div>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>Css</h4>
+						<p>Css</p>
 					</div>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>Bootstrap</h4>
+						<p>Bootstrap</p>
 					</div>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>Tailwind</h4>
+						<p>Tailwind</p>
 					</div>
 					<div className='my-2'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>Firebase</h4>
+						<p>Firebase</p>
 					</div>
 				</div>
-				<div className={`${Style.card} col-lg-5 col-md-6 col-sm-6`}>
+				<div className={`${Style.card} col-lg-5 col-md-6 col-sm-12`}>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>JavaScript</h4>
+						<p>JavaScript</p>
 					</div>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>Angular.js</h4>
+						<p>Angular.js</p>
 					</div>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>Vue.js</h4>
+						<p>Vue.js</p>
 					</div>
 					<div className='my-5'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>React.js</h4>
+						<p>React.js</p>
 					</div>
 					<div className='my-2'>
 						<div id={Style.myProgress}>
 							<div id={Style.myBar}></div>
 						</div>
-						<h4>Material Ui</h4>
+						<p>Material Ui</p>
 					</div>
 				</div>
-				<div className='col-1 d-md-none d-lg-block'></div>
+				<div className='col-1 d-none d-lg-block'></div>
 			</div>
 		</div>
 	);

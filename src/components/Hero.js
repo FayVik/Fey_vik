@@ -20,7 +20,7 @@ export default function Hero() {
 				</button>
 			</div>
 			<div className='col-lg-6 col-md-6 m-0'></div>
-			<div className={`${Style.imgBg} col-lg-5 col-md-5 d-lg-block d-xl-block`}>
+			<div className={`${Style.imgBg} col-lg-5 col-md-5 d-none d-md-block`}>
 				<img
 					src={img}
 					alt='Vick'
