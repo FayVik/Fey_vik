@@ -9,6 +9,7 @@
 .slider {
 	width: 90vw !important;
 	margin: auto;
+	padding: 20px;
 }
 .cards {
 	margin-bottom: 20px !important;
@@ -22,12 +23,17 @@
 	font-size: 13px;
 }
 .bgPad {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	height: 68vh;
-	margin: 0 20px !important;
+	margin: 10px 20px !important;
 	text-align: center;
 	font-weight: bold !important;
-	background: rgb(1, 17, 58);
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	background: rgb(255, 255, 255);
+}
+.link {
+	color: rgb(10, 113, 247);
+	text-decoration: none;
 }
 @media screen and (max-width: 1024px) {
 	.carousel {

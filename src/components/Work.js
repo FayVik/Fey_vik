@@ -1,6 +1,8 @@
 import React from 'react';
 import Style from '../style/Work.module.css';
 import Slider from 'react-slick';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const channels = [
 	{
@@ -39,11 +41,11 @@ const channels = [
 		id: 2,
 		participant: {
 			image:
-				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-07-25%20at%2021.44.00.png?alt=media&token=704b842d-592c-463b-b0a4-9bd929f199b1',
+				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-08-12%20at%2013.29.19.png?alt=media&token=96ec7d57-859b-4e8d-b01c-ae42f5b5ec5e',
 			name: 'Image Link Generator',
 			specialty:
-				'It is a drag and drop image uploader. It is built React.js, Firebase storage and material ul',
-			link: 'https://image-uploader-one.vercel.app/',
+				'A demo site I built as part of my article on "Build a Shopping Cart with Vue, Vuex & Vue Material Design',
+			link: 'https://codesource.io/build-a-shopping-cart-with-vue-vuex-vue-material-design/',
 		},
 	},
 ];
@@ -80,7 +82,7 @@ export default function Work() {
 		],
 	};
 	return (
-		<div className={`${Style.carousel} text-center`}>
+		<div className={`${Style.carousel} text-center`} data-aos='fade-down'>
 			<div className='my-5'>
 				<h2 className={Style.header}>My Lastest Work</h2>
 				<p className='my-2'>
@@ -95,7 +97,12 @@ export default function Work() {
 								key={channel.id}
 								className={`${Style.bgPad} mx-5 hadow-sm p-3 mb-5 rounded`}
 							>
-								<img src={channel.participant.image} width='100%' alt='work' />
+								<LazyLoadImage
+									src={channel.participant.image}
+									width='100%'
+									alt='work'
+									effect='blur'
+								/>
 								<div className={`${Style.cards}`}>
 									<h3 className={`${Style.header2} my-4`}>
 										{channel.participant.name}
