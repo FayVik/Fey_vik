@@ -9,7 +9,7 @@
 .img {
 	height: 300px;
 	width: 300px;
-	object-fit: fill;
+	object-fit: cover;
 }
 .navs {
 	height: 15vh;
