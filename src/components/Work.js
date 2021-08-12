@@ -114,7 +114,7 @@ export default function Work() {
 										rel='noreferrer'
 										className={`${Style.link}`}
 									>
-										{channel.participant.link}
+										Link to view project
 									</a>
 								</div>
 							</div>

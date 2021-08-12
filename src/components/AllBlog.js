@@ -7,10 +7,7 @@ export default function AllBlog() {
 	return (
 		<div className='row m-0'>
 			<div className={`col-lg-6 col-md-6 col-sm-12 mb-5 text-left`}>
-				<div
-					className={`${style.cards} px-4 py-4 rounded`}
-					data-aos='fade-right'
-				>
+				<div className={`${style.cards} px-4 py-4 rounded`}>
 					<div>
 						<LazyLoadImage
 							src='https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2Ffmzb2zrg8x32r55jkofo.jpeg?alt=media&token=0ee8b885-76e1-4c4e-bf65-31be6b378524'
@@ -41,10 +38,7 @@ export default function AllBlog() {
 				</div>
 			</div>
 			<div className={`col-lg-6 col-md-6 col-sm-12 mb-5 text-left`}>
-				<div
-					className={`${style.cards} px-4 py-4 rounded`}
-					data-aos='fade-left'
-				>
+				<div className={`${style.cards} px-4 py-4 rounded`}>
 					<div>
 						<LazyLoadImage
 							src='https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-08-12%20at%2014.01.03.png?alt=media&token=3284ccdd-58c1-465a-8b6c-c18cec6b7ea8'
@@ -75,10 +69,7 @@ export default function AllBlog() {
 				</div>
 			</div>
 			<div className={`col-lg-6 col-md-6 col-sm-12 mb-5 text-left`}>
-				<div
-					className={`${style.cards} px-4 py-4 rounded`}
-					data-aos='fade-right'
-				>
+				<div className={`${style.cards} px-4 py-4 rounded`}>
 					<div>
 						<LazyLoadImage
 							src='https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-08-12%20at%2013.40.49.png?alt=media&token=0da07559-985c-4160-afa4-106f36e06eff'
@@ -107,10 +98,7 @@ export default function AllBlog() {
 				</div>
 			</div>
 			<div className={`col-lg-6 col-md-6 col-sm-12 mb-5 text-left`}>
-				<div
-					className={`${style.cards} px-4 py-4 rounded`}
-					data-aos='fade-left'
-				>
+				<div className={`${style.cards} px-4 py-4 rounded`}>
 					<div>
 						<LazyLoadImage
 							src='https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-08-12%20at%2013.44.20.png?alt=media&token=122b35b9-9cad-4022-bdc5-70a8808e9fe0'

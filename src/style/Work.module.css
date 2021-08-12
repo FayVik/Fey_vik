@@ -20,8 +20,8 @@
 }
 .bgPad {
 	color: rgb(0, 0, 0);
-	height: 68vh;
-	margin: 10px 20px !important;
+	height: 74vh;
+	margin: 10px 10px !important;
 	text-align: center;
 	font-weight: bold !important;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -36,7 +36,7 @@
 		min-height: 60vh;
 	}
 	.bgPad {
-		height: 38vh;
+		height: 34vh;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -51,8 +51,11 @@
 	.carousel {
 		min-height: 100vh;
 	}
+	.bgPad {
+		height: 60vh;
+	}
 	.slider {
-		width: 75vw !important;
+		width: 80vw !important;
 		margin: auto;
 	}
 }

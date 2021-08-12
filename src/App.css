@@ -2,7 +2,7 @@
 	background: rgba(0, 10, 34, 0.767);
 }
 .navbar.colorChange {
-	background: rgba(0, 10, 34, 0.678);
+	background: rgb(0, 10, 34);
 	min-height: 10vh !important;
 }
 .header {
