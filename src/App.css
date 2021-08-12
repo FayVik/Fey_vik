@@ -1,9 +1,8 @@
-.navbar-expand-lg .navbar-nav {
-	align-items: center;
-	min-height: 10vh;
+.navbar {
+	background: rgba(0, 10, 34, 0.767);
 }
 .navbar.colorChange {
-	background: rgb(1, 17, 58);
+	background: rgba(0, 10, 34, 0.678);
 	min-height: 10vh !important;
 }
 .header {

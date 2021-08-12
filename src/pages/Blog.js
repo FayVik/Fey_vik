@@ -7,7 +7,7 @@ export default function Blog() {
 		<div className='text-white'>
 			<div className='blog-page text-center'>
 				<div className='blog-page1'>
-					<h2 className={`header`}>Articles</h2>
+					<h1 className={`header`}>Articles</h1>
 					<p className='m-0'>
 						I write articles about frontend development and tutorials for
 						beginners and you can find them below:

@@ -9,7 +9,7 @@ export default function About() {
 		<div className=''>
 			<div className={`${style.about}`}>
 				<div className={`${style.navs}`}></div>
-				<h2 className={`header my-4`}>A bit about Me</h2>
+				<h1 className={`header my-4`}>A bit about Me</h1>
 				<div className={`${style.imgePill} mb-4`}>
 					<LazyLoadImage
 						src={img}

@@ -52,10 +52,7 @@ function Nav() {
 					<span className='navbar-toggler-icon'></span>
 				</button>
 
-				<div
-					className='collapse navbar-collapse px-5'
-					id='navbarSupportedContent'
-				>
+				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
 					<ul className='navbar-nav mx-auto '>
 						{links.map((link) => (
 							<NavLink
