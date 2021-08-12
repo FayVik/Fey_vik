@@ -2,6 +2,7 @@ import React from 'react';
 import style from '../style/About.module.css';
 import AboutImages from '../components/AboutImages';
 import img from '../image/DSC_3058.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function About() {
 	return (
@@ -10,7 +11,11 @@ export default function About() {
 				<div className={`${style.navs}`}></div>
 				<h2 className={`header my-4`}>A bit about Me</h2>
 				<div className={`${style.imgePill} mb-4`}>
-					<img src={img} alt='me' className={`${style.img} rounded-circle`} />
+					<LazyLoadImage
+						src={img}
+						alt='me'
+						className={`${style.img} rounded-circle`}
+					/>
 				</div>
 				<div className={`${style.about2} row m-0`}>
 					<div className='col-lg-12 col-md-12 col-sm-12 text-center'>

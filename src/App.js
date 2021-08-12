@@ -2,6 +2,7 @@ import './App.css';
 import PageViewer from './HOC/PageViewer';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function App() {
 	return (

@@ -11,19 +11,6 @@
 	color: #f16405;
 	text-align: center;
 }
-/* .navbar.colorChange .linkItem {
-	color: #fff !important;
-}
-.linkItem {
-	text-decoration: none;
-	font-weight: 900;
-	font-size: 14px;
-	color: rgb(255, 255, 255);
-}
-.linkItem:hover {
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-} */
 .slick-next:before,
 .slick-prev:before {
 	color: rgb(0, 0, 0) !important;
@@ -41,9 +28,13 @@
 	background: rgb(1, 17, 58);
 	color: rgb(255, 255, 255);
 	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.blog-page1 {
-	height: 60vh;
-	position: absolute;
-	top: 25%;
+input {
+	box-shadow: none !important;
+}
+textarea {
+	box-shadow: none !important;
 }

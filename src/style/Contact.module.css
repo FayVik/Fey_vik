@@ -1,0 +1,31 @@
+.contact {
+	background: rgb(1, 17, 58);
+	color: rgb(255, 255, 255);
+	padding-bottom: 20vh;
+	display: flex;
+	width: 100%;
+	height: 60vh;
+	align-items: center;
+}
+.contact2 {
+	width: 100%;
+	height: 10vh;
+}
+.btn {
+	border: 1px solid #f16405;
+	background: #f16405;
+	color: #ffffff;
+	padding: 5px 40px;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.formCont {
+	height: 80vh;
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.form {
+	width: 60%;
+	margin: auto;
+}

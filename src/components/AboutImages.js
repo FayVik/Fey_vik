@@ -7,7 +7,10 @@ export default function AboutImages() {
 				<div className={`${style.col}`}>
 					<h2 className={`header my-5`}>My Experiences</h2>
 					<div className={`${style.timeline}`}>
-						<div className={`${style.timeline__content} ${style.right}`}>
+						<div
+							className={`${style.timeline__content} ${style.right}`}
+							data-aos='fade-right'
+						>
 							<div className={`${style.content}`}>
 								<div className='exp'>
 									<h5 className={`${style.exp_header}`}>
@@ -30,7 +33,10 @@ export default function AboutImages() {
 								</div>
 							</div>
 						</div>
-						<div className={`${style.timeline__content} ${style.left}`}>
+						<div
+							className={`${style.timeline__content} ${style.left}`}
+							data-aos='fade-left'
+						>
 							<div className={`${style.content}`}>
 								<div className='exp'>
 									<h5 className={`${style.exp_header}`}>
@@ -52,7 +58,10 @@ export default function AboutImages() {
 								</div>
 							</div>
 						</div>
-						<div className={`${style.timeline__content} ${style.right}`}>
+						<div
+							className={`${style.timeline__content} ${style.right}`}
+							data-aos='fade-right'
+						>
 							<div className={`${style.content}`}>
 								<div className='exp'>
 									<h5 className={`${style.exp_header}`}>
@@ -75,7 +84,10 @@ export default function AboutImages() {
 								</div>
 							</div>
 						</div>
-						<div className={`${style.timeline__content} ${style.left}`}>
+						<div
+							className={`${style.timeline__content} ${style.left}`}
+							data-aos='fade-left'
+						>
 							<div className={`${style.content}`}>
 								<div className='exp'>
 									<h5 className={`${style.exp_header}`}>
