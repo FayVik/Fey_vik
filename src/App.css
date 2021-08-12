@@ -6,6 +6,11 @@
 	background: rgb(1, 17, 58);
 	min-height: 10vh !important;
 }
+.header {
+	font-weight: bolder;
+	color: #f16405;
+	text-align: center;
+}
 /* .navbar.colorChange .linkItem {
 	color: #fff !important;
 }
@@ -21,21 +26,24 @@
 } */
 .slick-next:before,
 .slick-prev:before {
-	color: rgb(255, 255, 255) !important;
+	color: rgb(0, 0, 0) !important;
 }
-.about {
-	background: #ccc;
+
+.link {
+	color: rgba(0, 81, 255, 0.856);
+	text-decoration: none;
+	font-weight: bold !important;
 }
-.about-2 {
-	height: 80vh;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
+.link:hover {
+	text-decoration: none;
 }
-.bg-image {
+.blog-page {
 	background: rgb(1, 17, 58);
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	color: rgb(255, 255, 255);
+	height: 60vh;
 }
-.navs {
-	height: 15vh;
+.blog-page1 {
+	height: 60vh;
+	position: absolute;
+	top: 25%;
 }

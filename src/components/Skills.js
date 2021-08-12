@@ -6,7 +6,7 @@ export default function Skills() {
 	return (
 		<div className={Style.skills}>
 			<div className='my-5'>
-				<h2 className={Style.header}>My Skills</h2>
+				<h2 className='header'>My Skills</h2>
 				<p className='my-2 text-center'>
 					Here are all my Skills that I have aquired.
 				</p>

@@ -84,7 +84,7 @@ export default function Work() {
 	return (
 		<div className={`${Style.carousel} text-center`} data-aos='fade-down'>
 			<div className='my-5'>
-				<h2 className={Style.header}>My Lastest Work</h2>
+				<h2 className='header'>My Lastest Work</h2>
 				<p className='my-2'>
 					Here are some of my recent projects that i worked on
 				</p>

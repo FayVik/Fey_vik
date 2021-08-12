@@ -8,7 +8,7 @@ export default function BlogSection() {
 	return (
 		<div className={`${style.container} pb-5 container`}>
 			<div className='my-5'>
-				<h2 className={`${style.header}`}>My Blog</h2>
+				<h2 className={`header`}>My Blog</h2>
 				<p className='m-0'>
 					I write articles about frontend development and tutorials for
 					beginners and you can find them below:
@@ -40,7 +40,10 @@ export default function BlogSection() {
 							quickly develop high-quality apps and grow your business.
 						</p>
 						<div className='text-right'>
-							<a href='https://dev.to/fayvik/uploading-an-image-to-firebase-cloud-storage-with-angular-2aeh'>
+							<a
+								className='link'
+								href='https://dev.to/fayvik/uploading-an-image-to-firebase-cloud-storage-with-angular-2aeh'
+							>
 								Read More
 							</a>
 						</div>
@@ -71,7 +74,10 @@ export default function BlogSection() {
 							Http request, reactive forms, emitting events...
 						</p>
 						<div className='text-right'>
-							<a href='https://dev.to/fayvik/building-a-book-finder-app-using-google-book-api-305n'>
+							<a
+								className='link'
+								href='https://dev.to/fayvik/building-a-book-finder-app-using-google-book-api-305n'
+							>
 								Read More
 							</a>
 						</div>
@@ -101,7 +107,10 @@ export default function BlogSection() {
 							connection.
 						</p>
 						<div className='text-right'>
-							<a href='https://blog.logrocket.com/build-a-google-doc-clone-with-html-css-and-javascript/'>
+							<a
+								className='link'
+								href='https://blog.logrocket.com/build-a-google-doc-clone-with-html-css-and-javascript/'
+							>
 								Read More
 							</a>
 						</div>
@@ -131,7 +140,10 @@ export default function BlogSection() {
 							connection.
 						</p>
 						<div className='text-right'>
-							<a href='https://blog.logrocket.com/how-to-implement-form-validation-with-vuetify-in-a-vue-js-app/'>
+							<a
+								className='link'
+								href='https://blog.logrocket.com/how-to-implement-form-validation-with-vuetify-in-a-vue-js-app/'
+							>
 								Read More
 							</a>
 						</div>
@@ -141,7 +153,7 @@ export default function BlogSection() {
 					<button
 						className={`${style.btn} mt-2 animate__animated animate__delay-2s animate__infinite animate__pulse`}
 					>
-						<a href='/Blog'>
+						<a className='link' href='/Blog'>
 							Read More <BiRightArrowCircle size={22} />
 						</a>
 					</button>

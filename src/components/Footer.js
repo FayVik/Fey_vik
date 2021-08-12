@@ -19,27 +19,27 @@ export default function Footer() {
 				<div className='col-lg-4 col-sm-12 text-center'>
 					<div className='row m-0 justify-center'>
 						<div className='col-3 text-center'>
-							<a href='#blog' alt>
+							<a href='https://twitter.com/Fey_vik' alt>
 								<FiTwitter size={22} />
 							</a>
 						</div>
 						<div className='col-2 text-center'>
-							<a href='#blog'>
+							<a href='https://web.facebook.com/favour.emma.3150/?_rdc=1&_rdr'>
 								<FiFacebook size={22} />
 							</a>
 						</div>
 						<div className='col-2 text-center'>
-							<a href='#blog'>
+							<a href='https://www.instagram.com/favour.emma.3150/'>
 								<FiInstagram size={22} />
 							</a>
 						</div>
 						<div className='col-2 text-center'>
-							<a href='#blog'>
+							<a href='https://github.com/FayVik'>
 								<FiGithub size={22} />
 							</a>
 						</div>
 						<div className='col-3 text-center'>
-							<a href='#blog'>
+							<a href='https://www.linkedin.com/in/favour-vivian-woka-650894196/'>
 								<FiLinkedin size={22} />
 							</a>
 						</div>
