@@ -6,7 +6,36 @@
 	background: rgb(1, 17, 58);
 	min-height: 10vh !important;
 }
+/* .navbar.colorChange .linkItem {
+	color: #fff !important;
+}
+.linkItem {
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+}
+.linkItem:hover {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+} */
 .slick-next:before,
 .slick-prev:before {
-	color: black !important;
+	color: rgb(255, 255, 255) !important;
+}
+.about {
+	background: #ccc;
+}
+.about-2 {
+	height: 80vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.bg-image {
+	background: rgb(1, 17, 58);
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.navs {
+	height: 15vh;
 }

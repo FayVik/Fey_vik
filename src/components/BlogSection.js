@@ -141,7 +141,9 @@ export default function BlogSection() {
 					<button
 						className={`${style.btn} mt-2 animate__animated animate__delay-2s animate__infinite animate__pulse`}
 					>
-						Read More <BiRightArrowCircle size={22} />
+						<a href='/Blog'>
+							Read More <BiRightArrowCircle size={22} />
+						</a>
 					</button>
 				</div>
 			</div>
