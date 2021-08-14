@@ -1,10 +1,9 @@
 body {
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 600;
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-		monospace;
+	font-family: 'Libre Franklin', sans-serif;
 }

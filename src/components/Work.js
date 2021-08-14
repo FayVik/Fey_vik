@@ -83,19 +83,17 @@ export default function Work() {
 	};
 	return (
 		<div className={`${Style.carousel} text-center`} data-aos='fade-down'>
-			<div className='my-5'>
+			<div>
 				<h2 className='header'>My Lastest Work</h2>
-				<p className='my-2'>
-					Here are some of my recent projects that i worked on
-				</p>
+				<p>Here are some of my recent projects that i worked on</p>
 			</div>
-			<Slider {...settings} className={`${Style.slider} text-center`}>
+			<Slider {...settings} className={`${Style.slider} text-center mt-2`}>
 				{channels.map((channel) => {
 					return (
 						<div>
 							<div
 								key={channel.id}
-								className={`${Style.bgPad} mx-5 hadow-sm p-3 mb-5 rounded`}
+								className={`${Style.bgPad} hadow-sm p-3 rounded`}
 							>
 								<LazyLoadImage
 									src={channel.participant.image}

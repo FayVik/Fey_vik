@@ -1,6 +1,6 @@
 .carousel {
 	min-height: 100vh;
-	padding: 10px 0;
+	padding: 40px 0;
 }
 .slider {
 	width: 90vw !important;
@@ -17,10 +17,11 @@
 }
 .text {
 	font-size: 13px;
+	text-align: center;
 }
 .bgPad {
 	color: rgb(0, 0, 0);
-	height: 74vh;
+	/* height: 74vh; */
 	margin: 10px 10px !important;
 	text-align: center;
 	font-weight: bold !important;
@@ -33,27 +34,24 @@
 }
 @media screen and (max-width: 1024px) {
 	.carousel {
-		min-height: 60vh;
+		min-height: 40vh;
 	}
-	.bgPad {
+	/* .bgPad {
 		height: 34vh;
-	}
+	} */
 }
 @media screen and (max-width: 768px) {
 	.carousel {
-		min-height: 86vh;
-	}
-	.bgPad {
-		height: 60vh;
+		min-height: 60vh;
 	}
 }
 @media screen and (max-width: 500px) {
 	.carousel {
-		min-height: 100vh;
+		min-height: 60vh;
 	}
-	.bgPad {
-		height: 60vh;
-	}
+	/* .bgPad {
+		min-height: 45vh;
+	} */
 	.slider {
 		width: 80vw !important;
 		margin: auto;
