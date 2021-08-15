@@ -2,6 +2,7 @@ import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import style from '../style/Blog.module.css';
+import { Adsense } from '@ctrl/react-adsense';
 
 export default function AllBlog() {
 	return (
@@ -67,6 +68,14 @@ export default function AllBlog() {
 						</a>
 					</div>
 				</div>
+			</div>
+			<div className={`col-lg-12 col-md-12 col-sm-12 mb-5 text-left`}>
+				<Adsense
+					data-ad-layout='in-article'
+					data-ad-format='fluid'
+					data-ad-client='ca-pub-3301294413158355'
+					data-ad-slot='3120755964'
+				/>
 			</div>
 			<div className={`col-lg-6 col-md-6 col-sm-12 mb-5 text-left`}>
 				<div className={`${style.cards} px-4 py-4 rounded`}>
