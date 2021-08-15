@@ -9,6 +9,7 @@ const styles = {
 		fontWeight: 'bolder',
 		borderBottom: '2px solid #f16405',
 		paddingBottom: '6px',
+		backgorund: 'red',
 	},
 	linkItem: {
 		textDecoration: 'none',
@@ -56,7 +57,7 @@ function Nav() {
 					<ul className='navbar-nav mx-auto '>
 						{links.map((link) => (
 							<NavLink
-								className='links mx-4 my-4'
+								className='links mr-5 my-4'
 								key={link.path}
 								exact
 								style={styles.linkItem}

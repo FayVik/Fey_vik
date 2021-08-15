@@ -15,35 +15,35 @@ export default function Contact() {
 			</div>
 			<div className={`${style.formCont} container my-5`}>
 				<form className={`${style.form} row`}>
-					<div class='form-group col-12'>
-						<label for='exampleInputFullname1'>Full Name</label>
+					<div className='form-group col-12'>
+						<label htmlFor='exampleInputFullname1'>Full Name</label>
 						<input
 							type='text'
-							class='form-control'
+							className='form-control'
 							id='exampleInputFullname1'
 						/>
 					</div>
-					<div class='form-group col-lg-6 col-md-6 col-sm-12'>
-						<label for='exampleInputPhoneNumber1'>Phone number</label>
+					<div className='form-group col-lg-6 col-md-6 col-sm-12'>
+						<label htmlFor='exampleInputPhoneNumber1'>Phone number</label>
 						<input
 							type='number'
-							class='form-control'
+							className='form-control'
 							id='exampleInputPhoneNumber1'
 						/>
 					</div>
-					<div class='form-group col-lg-6 col-md-6 col-sm-12'>
-						<label for='exampleInputEmail1'>Email address</label>
+					<div className='form-group col-lg-6 col-md-6 col-sm-12'>
+						<label htmlFor='exampleInputEmail1'>Email address</label>
 						<input
 							type='email'
-							class='form-control'
+							className='form-control'
 							id='exampleInputEmail1'
 							aria-describedby='emailHelp'
 						/>
 					</div>
-					<div class='form-group col-12'>
-						<label for='exampleFormControlTextarea1'>Message</label>
+					<div className='form-group col-12'>
+						<label htmlFor='exampleFormControlTextarea1'>Message</label>
 						<textarea
-							class='form-control'
+							className='form-control'
 							id='exampleFormControlTextarea1'
 							rows='3'
 						></textarea>

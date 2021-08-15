@@ -38,18 +38,36 @@ const channels = [
 		},
 	},
 	{
-		id: 2,
+		id: 4,
 		participant: {
 			image:
-				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-08-12%20at%2013.29.19.png?alt=media&token=96ec7d57-859b-4e8d-b01c-ae42f5b5ec5e',
-			name: 'Image Link Generator',
-			specialty:
-				'A demo site I built as part of my article on "Build a Shopping Cart with Vue, Vuex & Vue Material Design',
-			link: 'https://codesource.io/build-a-shopping-cart-with-vue-vuex-vue-material-design/',
+				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images2%2FScreenshot%202021-08-14%20at%2003.09.01.png?alt=media&token=a258aa88-40d7-4c98-bc10-5d6297ee902b',
+			name: 'An E-commerce',
+			specialty: 'I built it for turning Frontend Challenge',
+			link: 'https://aneeque-coding-challenge-taupe.vercel.app/',
+		},
+	},
+	{
+		id: 5,
+		participant: {
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images2%2FScreenshot%202021-08-14%20at%2003.00.02.png?alt=media&token=569c04bc-4cb9-4dd9-a6e3-e37416597f64',
+			name: 'Nike Brand',
+			specialty: 'A website I built when leaning css',
+			link: 'https://vivian-week-1-project.vercel.app/',
+		},
+	},
+	{
+		id: 6,
+		participant: {
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images2%2FScreenshot%202021-08-14%20at%2008.13.30.png?alt=media&token=5cea3fa9-ac50-4dae-ac71-73ef3262ea9a',
+			name: 'SUB-REDDIT',
+			specialty: 'An app showing lists of posts grouped by their subreddit',
+			link: 'https://subraddit.netlify.app/',
 		},
 	},
 ];
-
 export default function Work() {
 	const settings = {
 		dots: false,

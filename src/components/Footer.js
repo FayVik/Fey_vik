@@ -19,7 +19,7 @@ export default function Footer() {
 				<div className='col-lg-4 col-sm-12 text-center'>
 					<div className='row m-0 justify-center'>
 						<div className='col-3 text-center'>
-							<a href='https://twitter.com/Fey_vik' alt>
+							<a href='https://twitter.com/Fey_vik'>
 								<FiTwitter size={22} />
 							</a>
 						</div>
