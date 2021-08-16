@@ -1,31 +1,36 @@
 import React from 'react';
 import firebase from '../firebase';
-
 export default function GoogleAdId() {
-	const [value, setValue] = React.useState('');
-	const db = firebase.firestore();
-	const getValue = (event) => {
-		setValue(event.target.value);
-	};
-	const addValue = () => {
-		const bt = db
-			.collection('values')
-			.doc(value)
-			.set({ value: value })
-			.then((res) => {
-				console.log('Value successfully written!', res);
+	function authenticateWithGoogle() {
+		// eslint-disable-next-line no-undef
+		const provider = new firebase.auth.GoogleAuthProvider();
+		// eslint-disable-next-line no-undef
+		firebase
+			.auth()
+			.signInWithPopup(provider)
+			.then(function (result) {
+				window.location.href = '/ShowAllDoc';
 			})
 			.catch(function (error) {
-				console.error('Error writing Value: ', error);
+				const errorCode = error.code;
+				const errorMessage = error.message;
+				const email = error.email;
+				const credential = error.credential;
+				console.log(errorCode, errorMessage, email, credential);
 			});
-		console.log(bt);
-	};
+	}
+
 	return (
-		<div>
-			<input onBlur={getValue} type='text' />
-			<button type='button' onClick={addValue}>
-				Add
-			</button>
+		<div className='row'>
+			<div className='google col-6 text-center'>
+				<button
+					className='btn-google btn-danger btn mb-2 '
+					onClick={authenticateWithGoogle}
+				>
+					<img src='image/Google.png' width='24' alt='' />
+					<span>Login with Google</span>
+				</button>
+			</div>
 		</div>
 	);
 }
