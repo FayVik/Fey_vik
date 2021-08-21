@@ -17,13 +17,13 @@ export default function BlogSection() {
 				<AllBlog />
 			</div>
 			<div className='text-center'>
-				<button
-					className={`${style.btn} mt-2 animate__animated animate__delay-2s animate__infinite animate__pulse`}
-				>
-					<a className='link' href='/Blog'>
+				<a className='link' href='/Blog'>
+					<button
+						className={`${style.btn} mt-2 animate__animated animate__delay-2s animate__infinite animate__pulse`}
+					>
 						Read More <BiRightArrowCircle size={22} />
-					</a>
-				</button>
+					</button>
+				</a>
 			</div>
 		</div>
 	);

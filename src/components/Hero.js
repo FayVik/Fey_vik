@@ -13,11 +13,14 @@ export default function Hero() {
 						Front-end Developer / Technical Writer
 					</p>
 				</div>
-				<button
-					className={`${Style.btn} mt-2 animate__animated animate__delay-2s animate__infinite animate__pulse`}
-				>
-					Hire Me
-				</button>
+				<a className='link' href='/Contact'>
+					<button
+						type='submit'
+						className={`${Style.btn} mt-2 animate__animated animate__delay-2s animate__infinite animate__pulse`}
+					>
+						Hire Me
+					</button>
+				</a>
 			</div>
 			<div className='col-lg-6 col-md-6 m-0'></div>
 			<div className={`${Style.imgBg} col-lg-5 col-md-5 d-none d-md-block`}>

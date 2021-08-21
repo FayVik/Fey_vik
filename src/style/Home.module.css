@@ -17,12 +17,13 @@
 	position: absolute;
 	top: 40%;
 	left: 6%;
+	z-index: 999999;
 }
 .text {
 	color: #f16405;
 }
 .btn {
-	color: #f16405;
+	color: #f16405 !important;
 	border: 1px solid #f16405;
 	background: none;
 	padding: 5px 40px;
@@ -30,8 +31,8 @@
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .btn:hover {
+	color: #fff !important;
 	background: #f16405;
-	color: #fff;
 }
 .imgBg {
 	text-align: center;
