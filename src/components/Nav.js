@@ -54,7 +54,7 @@ function Nav() {
 				</button>
 
 				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
-					<ul className='navbar-nav mx-auto '>
+					<ul className='navbar-nav mx-auto'>
 						{links.map((link) => (
 							<NavLink
 								className='links mr-5 my-4'

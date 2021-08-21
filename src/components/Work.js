@@ -19,6 +19,27 @@ const channels = [
 		id: 2,
 		participant: {
 			image:
+				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images2%2FScreenshot%202021-08-20%20at%2005.21.29.png?alt=media&token=ce8df331-2524-4d14-b64c-7b08592d4759',
+			name: 'MentorApp',
+			specialty:
+				'A website that allows users to have 1-on-1 conversations about growth, marketing, and everything in between with the world top 3% of startup and marketing mentors',
+			link: 'https://mentor-app.vercel.app/',
+		},
+	},
+	{
+		id: 4,
+		participant: {
+			image:
+				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images2%2FScreenshot%202021-08-20%20at%2007.24.51.png?alt=media&token=cf1ece0b-7534-44cf-ba9e-899d6800ea4d',
+			name: 'zoepool',
+			specialty: 'An Africa-based stakepool focused on',
+			link: 'https://zoepool.com/',
+		},
+	},
+	{
+		id: 5,
+		participant: {
+			image:
 				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-07-25%20at%2021.44.00.png?alt=media&token=704b842d-592c-463b-b0a4-9bd929f199b1',
 			name: 'Image Link Generator',
 			specialty:
@@ -27,44 +48,34 @@ const channels = [
 		},
 	},
 	{
-		id: 3,
+		id: 6,
 		participant: {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images%2FScreenshot%202021-07-23%20at%2018.32.41.png?alt=media&token=3a2f5c0c-756c-4242-9f93-3c1bcff26d78',
 			name: 'A Dashboard',
 			specialty:
-				'A coding challenge That I took. It is built with bootstrap, react',
+				'A coding challenge That I built. It is built with bootstrap, react',
 			link: 'https://aneeque-coding-challenge-taupe.vercel.app/',
 		},
 	},
 	{
-		id: 4,
+		id: 7,
 		participant: {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images2%2FScreenshot%202021-08-14%20at%2003.09.01.png?alt=media&token=a258aa88-40d7-4c98-bc10-5d6297ee902b',
 			name: 'An E-commerce',
 			specialty: 'I built it for turning Frontend Challenge',
-			link: 'https://aneeque-coding-challenge-taupe.vercel.app/',
+			link: 'https://e-commerce-nine-lilac.vercel.app/',
 		},
 	},
 	{
-		id: 5,
+		id: 8,
 		participant: {
 			image:
 				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images2%2FScreenshot%202021-08-14%20at%2003.00.02.png?alt=media&token=569c04bc-4cb9-4dd9-a6e3-e37416597f64',
 			name: 'Nike Brand',
 			specialty: 'A website I built when leaning css',
 			link: 'https://vivian-week-1-project.vercel.app/',
-		},
-	},
-	{
-		id: 6,
-		participant: {
-			image:
-				'https://firebasestorage.googleapis.com/v0/b/uploader-89d2b.appspot.com/o/images2%2FScreenshot%202021-08-14%20at%2008.13.30.png?alt=media&token=5cea3fa9-ac50-4dae-ac71-73ef3262ea9a',
-			name: 'SUB-REDDIT',
-			specialty: 'An app showing lists of posts grouped by their subreddit',
-			link: 'https://subraddit.netlify.app/',
 		},
 	},
 ];
