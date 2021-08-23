@@ -67,8 +67,8 @@ export default function AboutImages() {
 										<li>
 											Worked with the team on various projects that can be seen
 											below.
-											<a href='http://editor-group-service.web.app/'>
-												http://editor-group-service.web.app/
+											<a href='https://helixgade.com/'>
+												https://helixgade.com/
 											</a>
 										</li>
 									</ul>
